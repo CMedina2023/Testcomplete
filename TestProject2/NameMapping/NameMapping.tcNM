@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0A762C3F-5455-442B-94F2-62118F710D3E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{5DF414DC-0D93-4005-95BA-EE48F228FC70}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{990FB43C-2611-4DE9-B0C9-1597E29F351D}">
+								<Image FileName="762845632" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSeleniumEasyDemoSimpleFormTo" Key="{843AE6D6-241E-450E-82E7-11CB304BAA32}">
+								<Image FileName="762845632" Left="0" Top="88" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.seleniumeasy.com/basic-first-form-demo.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTreemenu" Key="{AEAABC6B-568B-49DD-9A73-EC04BC5EF843}">
+										<Image FileName="762845632" Left="39" Top="480" Right="437" Bottom="760" />
+										<Selectors>
+											<Selector>
+												<Value Value="#treemenu" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;All Examples&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;treeview&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllExamples" Key="{AAD7EFE5-E94C-4ED8-A6ED-5FD68260B720}">
+										<Image FileName="762845632" Left="39" Top="480" Right="437" Bottom="760" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;All Examples&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;treemenu&apos;]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTable" Key="{B94E3EC4-F687-436D-B2D0-3654F7F2E518}">
+										<Image FileName="762845632" Left="73" Top="585" Right="418" Bottom="620" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/ul/li/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{08B988A7-D156-42EB-86A3-71F1AD120CEC}">
+										<Image FileName="762845632" Left="91" Top="593" Right="109" Bottom="611" />
+										<TypeInfo Item0="{CDA8E0AA-E8CA-4D5B-A6B7-D129BC511046}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/i[contains(@class, &apos;tree-indicator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;treemenu&apos;]//li[3]/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTablePagination" Key="{91CB2CA7-1F92-4057-A21A-1439885C2EF9}">
+										<Image FileName="-275092693" Left="117" Top="626" Right="259" Bottom="648" />
+										<TypeInfo Item0="{CDA8E0AA-E8CA-4D5B-A6B7-D129BC511046}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;treemenu&apos;]//li[3]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li[3]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTablePaginationDemo" Key="{DD0E556C-A7E3-44FD-A68D-8DFD288336D2}">
+								<Image FileName="762845632" Left="0" Top="88" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{BEFEB97C-EBDB-4128-892A-C70E8A75AC05}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.seleniumeasy.com/table-pagination-demo.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMypager" Key="{EC06341C-8CE6-4FDA-AE63-3955673A1AAC}">
+										<Image FileName="683188271" Left="625" Top="914" Right="818" Bottom="959" />
+										<Selectors>
+											<Selector>
+												<Value Value="#myPager" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;pagination&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{2CCD97D8-22C9-43D0-AD34-299CE7128B00}">
+										<Image FileName="683188271" Left="672" Top="914" Right="722" Bottom="959" />
+										<TypeInfo Item0="{CDA8E0AA-E8CA-4D5B-A6B7-D129BC511046}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;page_link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{5DF414DC-0D93-4005-95BA-EE48F228FC70}">
+			<Child Name="BrowserWindow" Owner="{990FB43C-2611-4DE9-B0C9-1597E29F351D}" />
+			<Child Name="pageSeleniumEasyDemoSimpleFormTo" Owner="{843AE6D6-241E-450E-82E7-11CB304BAA32}">
+				<Child Name="textnodeTreemenu" Owner="{AEAABC6B-568B-49DD-9A73-EC04BC5EF843}">
+					<Child Name="textnodeAllExamples" Owner="{AAD7EFE5-E94C-4ED8-A6ED-5FD68260B720}">
+						<Child Name="textnodeTable" Owner="{B94E3EC4-F687-436D-B2D0-3654F7F2E518}">
+							<Child Name="textnode" Owner="{08B988A7-D156-42EB-86A3-71F1AD120CEC}" />
+							<Child Name="linkTablePagination" Owner="{91CB2CA7-1F92-4057-A21A-1439885C2EF9}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageTablePaginationDemo" Owner="{DD0E556C-A7E3-44FD-A68D-8DFD288336D2}">
+				<Child Name="textnodeMypager" Owner="{EC06341C-8CE6-4FDA-AE63-3955673A1AAC}">
+					<Child Name="link2" Owner="{2CCD97D8-22C9-43D0-AD34-299CE7128B00}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

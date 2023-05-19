@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{1F74EF36-F99F-4043-BFD6-BE82F53F4071}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45065.692025463" objectName="Aliases.browser.pageSeleniumEasyDemoSimpleFormTo.textnodeTreemenu.textnodeAllExamples.textnodeTable.textnode" objectLeft="91" objectTop="593" objectRight="109" objectBottom="611" clickPointX="101" clickPointY="608" imageFileName="tcvi836950859198240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45065.692037037" objectName="Aliases.browser.pageSeleniumEasyDemoSimpleFormTo.textnodeTreemenu.textnodeAllExamples.textnodeTable.linkTablePagination" objectLeft="117" objectTop="626" objectRight="259" objectBottom="648" clickPointX="145" clickPointY="633" imageFileName="tcvi836951906198241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45065.6920833333" objectName="Aliases.browser.pageTablePaginationDemo.textnodeMypager.link2" objectLeft="672" objectTop="914" objectRight="722" objectBottom="959" clickPointX="693" clickPointY="935" imageFileName="tcvi836956687198242.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
